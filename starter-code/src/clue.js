@@ -63,128 +63,121 @@ occupation:   "Retired Football player"
 
 
 
-// Weapons
-
+/ Weapons
 const rope = {
-    name: rope,
-    weight: 10
+   name: "rope",
+   weight: 10
 };
 
 const knife = {
-    name: knife,
-    weight: 8
+   name: "knife",
+   weight: 8
 };
 
 const candlestick = {
-    name: candlestick,
-    weight: 2
+   name: "candlestick",
+   weight: 2
 };
 
 const dumbbell = {
-    name: dumbbell,
-    weight: 30
-}
-
-
+   name: "dumbbell",
+   weight: 30
+};
 
 const poison = {
-  name: poison,
-weight: 2
-    
-}
+   name: "poison",
+   weight: 2
+};
 
 const axe = {
-  name: axe,
-weight: 15
-    
-}
+   name: "axe",
+   weight: 15
+};
 
 const bat = {
-  name: bat,
-weight: 13
-    
-}
+   name: "bat",
+   weight: 13
+};
 
-const trophy  = {
-  name: trophy,
-weight: 25
-    
-}
+const trophy = {
+   name: "trophy",
+   weight: 25
+};
 
 const pistol = {
-    name: pistol,
-    weight: 20
-    
-}
-/*
+   name: "pistol",
+   weight: 20
+};
+
+
+
 // Rooms
 
-const diningRoom= {
-    name: Dining Room
+const diningRoom = {
+    name: "Dining Room"
     };
 
-    const conservatory= {
-    name: Conservatory
-    };
+const conservatory = {
+    name: "Conservatory"
+};
 
-    const kitchen= {
-    name: Kitchen
-    };
+const kitchen = {
+    name: "Kitchen"
+};
 
-    const study= {
-    name: Study
-    };
+const study = {
+    name: "Study"
+};
 
-    const library= {
-    name: Library
-    };
+const library = {
+    name: "Library"
+};
 
-    const billiard= {
-    name: Billiard Room
-    };
+const billiard = {
+    name: "Billiard Room"
+};
 
-    const lounge= {
-    name: Lounge
-    };
+const lounge = {
+    name: "Lounge"
+};
 
-    const ballroom= {
-    name: Ballroom
-    };
+const ballroom = {
+    name: "Ballroom"
+};
 
-    const hall= {
-    name: Hall
-    };
+const hall = {
+    name: "Hall"
+};
 
-    const spa= {
-    name: Spa
-    };
+const spa = {
+    name: "Spa"
+};
+ 
+const living = {
+    name: "Living Room"
+};
 
-    const living= {
-    name: Living Room
-    };
+const observatory = {
+    name: "Observatory"
+};
 
-    const observatory= {
-    name: Observatory
-    };
+const theater = {
+    name: "Theater"
+};
 
-    const theater= {
-    name: Theater
-    };
+const guest = {
+    name: "Guest House"
+};
 
-    const guest= {
-    name: Guest House
-    };
+const patio = {
+    name: "Patio"
+};
 
-    const patio= {
-    name: Patio
-    };
-*/
 
 // Characters Collection
-const charactersArray = [];
+const charactersArray = [ mrGreen, drOrchid, profPlum, missScarlet, mrsPeacock,mrMustard];
 
-// Rooms Collection
-const roomsArray = [];
+const roomsArray = [diningRoom,conservatory,kitchen,study,library,billiard,lounge,ballroom,hall,spa,living,observatory,theater,guest,patio];
 
 // Weapons Collection
-const weaponsArray = [];
+const weaponsArray = [rope, knife, candlestick, dumbbell, poison, axe, bat, trophy, pistol];
