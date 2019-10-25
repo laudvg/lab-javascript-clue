@@ -168,6 +168,8 @@ function pickMystery(){
    return mysteryEnvelope;
 };
 
-function revealMystery(){
-   return `${mysteryEnvelope.suspect.first_name} ${mysteryEnvelope.suspect.last_name} killed Mr. Boddy using the ${mysteryEnvelope.weapon.name} in the <ROOM>!!!!`
+let mysteryEnvelope = pickMystery();
+
+function revealMystery(mysteryEnvelope){
+   return `${mysteryEnvelope.suspect.first_name} ${mysteryEnvelope.suspect.last_name} killed Mr. Boddy using the ${mysteryEnvelope.weapon.name} in the ${mysteryEnvelope.room.name}!!!!`
 }
